@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Patient</string>
+    <string name="undo">ОТМЕНИТЬ</string>
+    <string name="deleted">Удалено</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_download">Загрузка программы</string>
+    <string name="action_temperature">Температура</string>
+    <string name="action_measurement">Давление</string>
+    <string name="action_add_measure">Добавить давление</string>
+    <string name="action_add_temperature">Добавить температуру</string>
+    <string name="action_add_patient">Добавить пациента</string>
+    <string name="action_draw_plot">График</string>
+    <string name="lbl_range">Значения</string>
+    <string name="lbl_domain">Даты</string>
+    <string name="lbl_plot_systolic">Сист.</string>
+    <string name="lbl_plot_diastolic">Диаст.</string>
+    <string name="lbl_heart_rate">ЧСС</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="m_measurement">Укажите значения измерения:</string>
+    <string name="family_edit_caption">Введите ФИО пользователя</string>
+    <string name="gender_caption">Пол</string>
+    <string name="action_OK">Сохранить</string>
+    <string name="action_Cancel">Отменить</string>
+    <string name="lbl_systolic">систолическое</string>
+    <string name="lbl_diastolic">диастолическое</string>
+    <string name="lbl_pulse">пульс</string>
+    <string name="lbl_name">Имя</string>
+    <string name="lbl_name2">Отчество</string>
+    <string name="lbl_surname">Фамилия</string>
+    <string name="error_field_required">Это поле обязательное</string>
+    <string name="birth_day_caption">Дата рождения</string>
+    <string name="m_error">Ошибка</string>
+    <string name="m_years">лет</string>
+    <string name="measurement_day_caption">Дата измерения</string>
+    <string name="m_wrong_birthdate">Дата рождения должна быть раньше текущей</string>
+    <string name="m_alert">Внимание!</string>
+    <string name="m_need_user">Необходимо завести хотя бы одного пользователя!</string>
+    <string name="male">мужской</string>
+    <string name="female">женский</string>
+    <string name="change_birth_day">Изменить</string>
+    <string name="patient_list">Список пациентов</string>
+    <string name="action_edit_patient">Изменить</string>
+    <string name="selected">Выбрано</string>
+    <string name="measurements">"измерений: "</string>
+    <string name="action_delete">Удалить</string>
+    <string name="title_activity_temperature">Температура</string>
+    <string name="title_activity_measurement">Давление</string>
+    <string name="title_activity_family_edit">Семья</string>
+    <string name="title_activity_measurement_edit">Давление</string>
+    <string name="title_activity_measurement_plot">График измерений</string>
+    <string name="m_cntr">Записей: %d</string>
+
+    <string-array name="period_array">
+        <item>1 неделя</item>
+        <item>2 недели</item>
+        <item>3 недели</item>
+        <item>1 месяц</item>
+        <item>2 месяца</item>
+        <item>3 месяца</item>
+        <item>6 месяцев</item>
+        <item>12 месяцев</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="title_activity_camera">CameraActivity</string>
+
+</resources>

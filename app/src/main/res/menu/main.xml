@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_add_patient"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/action_add_patient"/>
+    <item
+        android:id="@+id/action_download"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_download"/>
+    <item
+        android:id="@+id/action_temperature"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_temperature" android:visible="false"/>
+    <item
+        android:id="@+id/action_measurement"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_measurement" android:visible="false"/>
+    
+</menu>

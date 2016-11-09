@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\xml\\line_point_formatter_dias_norm.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\xml\\line_point_formatter_dias_norm.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\xml\\line_point_formatter_sys_norm.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\xml\\line_point_formatter_sys_norm.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\xml\\line_point_formatter_3.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\xml\\line_point_formatter_3.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\xml\\line_point_formatter_with_plf2.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\xml\\line_point_formatter_with_plf2.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\xml\\line_point_formatter_with_plf1.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\xml\\line_point_formatter_with_plf1.xml"
+    }
+]

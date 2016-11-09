@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_measurement.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\layout\\activity_measurement.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_measurement_plot.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\layout\\activity_measurement_plot.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\undobar.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\layout\\undobar.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\drawer_list_item.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\layout\\drawer_list_item.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_temperature.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\layout\\activity_temperature.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_measurement_edit_numpick.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\layout\\activity_measurement_edit_numpick.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\patient_row.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\layout\\patient_row.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\measurement_row.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\layout\\measurement_row.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_camera.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\layout\\activity_camera.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_family_edit.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\layout\\activity_family_edit.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_measurement_edit.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\layout\\activity_measurement_edit.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\swipe_measurement_row.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\layout\\swipe_measurement_row.xml"
+    }
+]

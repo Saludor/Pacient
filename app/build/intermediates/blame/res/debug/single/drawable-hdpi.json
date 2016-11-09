@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gray_right_arrow2.png",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-hdpi\\gray_right_arrow2.png"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\background_back.png",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-hdpi\\background_back.png"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\background_front.png",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-hdpi\\background_front.png"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gray_right_arrow1.png",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-hdpi\\gray_right_arrow1.png"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gray_right_arrow2_down.png",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-hdpi\\gray_right_arrow2_down.png"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\drawer_shadow.9.png",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-hdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gray_right_arrow2_up.png",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-hdpi\\gray_right_arrow2_up.png"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_time.png",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-hdpi\\ic_action_time.png"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_go_to_today.png",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-hdpi\\ic_action_go_to_today.png"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\user.png",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-hdpi\\user.png"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_drawer.png",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-hdpi\\ic_drawer.png"
+    }
+]

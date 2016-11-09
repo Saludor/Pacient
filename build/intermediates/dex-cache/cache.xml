@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Patient\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="E:\Patient\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.1.1_11e030fa12748c1edea075824699cb8aaf89737d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Patient\app\libs\androidplot-core-0.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f748797c749973ce1364ea8cc640744b64f78709">
+        <dex dex="E:\Patient\app\build\intermediates\pre-dexed\debug\androidplot-core-0.6.0_4692f65ab120726aaa65da19762d6c7b1324e8b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Patient\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="E:\Patient\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1_2e06b5e472b578220a2fdcd478f6bf31d52202fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Patient\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="253e1a47710e731ecf6be7a80aea49672882449f">
+        <dex dex="E:\Patient\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_b6ac2bfb42d747e26783f6c0670da7b2a6ac573f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Patient\app\libs\android-integration-2.1-supportv4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4d7f6477e17a2a3725e1395278d48fac0ab81f24">
+        <dex dex="E:\Patient\app\build\intermediates\pre-dexed\debug\android-integration-2.1-supportv4_70e750f41c443ae8a870342fb7d49c02adafe7e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\testLogin\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="E:\Patient\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1_e74eee09fd2e0beebebcd9e883990f4cf2ae6841.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Patient\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="E:\Patient\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0_f254dcad90b39f8ea5ddae6bdc7e921f6df61706.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Patient\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="6b74da73ed9a9ac4336ec1668c541ab694a7c54f">
+        <dex dex="E:\Patient\app\build\intermediates\pre-dexed\debug\instant-run_61c457b5b95e2220b3370b86567d14856037d1ab.jar" />
+    </item>
+
+</items>

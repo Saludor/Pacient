@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal" 
+		android:background="@drawable/list_selector"
+		android:padding="1dip"> 
+ 
+		<TextView 
+				android:id="@+id/lineSentMsgCntr" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+	      android:layout_alignParentTop="true"
+		    android:layout_alignParentRight="true"
+		    android:textSize="12sp"
+		    android:text="" /> 
+ 
+		<TextView
+		    android:id="@+id/linePatientName"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/lineSentMsgCntr"
+		    android:gravity="center_horizontal|center_vertical"
+		    android:textSize="20sp"
+		    android:text="Name"
+		    android:layout_centerVertical="true"
+		    android:textStyle="normal" />
+
+		 <!-- Rightend Arrow -->
+     <ImageView
+        android:id="@+id/imageArrow"  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gray_right_arrow2" 
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+     <ImageView
+         android:id="@+id/imageViewPatient"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/linePatientName"
+         android:layout_centerVertical="true"
+         android:src="@drawable/user" />
+
+ 		<TextView
+		    android:id="@+id/lineRecMsgCntr"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/linePatientName"
+		    android:layout_alignParentRight="true"
+		    android:layout_gravity="bottom"
+		    android:textSize="12sp"
+		    android:text="" />
+
+     
+</RelativeLayout>

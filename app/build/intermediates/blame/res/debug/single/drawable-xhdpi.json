@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_drawer.png",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-xhdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\drawer_shadow.9.png",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-xhdpi\\drawer_shadow.9.png"
+    }
+]

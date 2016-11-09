@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="22.1.1$Generated" generated="true"><source path="E:\Patient\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\res"/></dataSet><dataSet config="main$Generated" generated="true"><source path="E:\Patient\app\src\main\res"/><source path="E:\Patient\app\build\generated\res\rs\debug"/><source path="E:\Patient\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="E:\Patient\app\src\debug\res"/></dataSet><dataSet config="22.1.1" from-dependency="true" generated-set="22.1.1$Generated"><source path="E:\Patient\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="E:\Patient\app\src\main\res"><file name="background_back" path="E:\Patient\app\src\main\res\drawable-hdpi\background_back.png" qualifiers="hdpi-v4" type="drawable"/><file name="background_front" path="E:\Patient\app\src\main\res\drawable-hdpi\background_front.png" qualifiers="hdpi-v4" type="drawable"/><file name="choice_selected" path="E:\Patient\app\src\main\res\drawable-hdpi\choice_selected.xml" qualifiers="hdpi-v4" type="drawable"/><file name="choice_unselected" path="E:\Patient\app\src\main\res\drawable-hdpi\choice_unselected.xml" qualifiers="hdpi-v4" type="drawable"/><file name="drawer_shadow" path="E:\Patient\app\src\main\res\drawable-hdpi\drawer_shadow.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="edit_bg" path="E:\Patient\app\src\main\res\drawable-hdpi\edit_bg.xml" qualifiers="hdpi-v4" type="drawable"/><file name="gradient_bg" path="E:\Patient\app\src\main\res\drawable-hdpi\gradient_bg.xml" qualifiers="hdpi-v4" type="drawable"/><file name="gradient_bg_hover" path="E:\Patient\app\src\main\res\drawable-hdpi\gradient_bg_hover.xml" qualifiers="hdpi-v4" type="drawable"/><file name="gradient_bg_selected" path="E:\Patient\app\src\main\res\drawable-hdpi\gradient_bg_selected.xml" qualifiers="hdpi-v4" type="drawable"/><file name="gray_right_arrow1" path="E:\Patient\app\src\main\res\drawable-hdpi\gray_right_arrow1.png" qualifiers="hdpi-v4" type="drawable"/><file name="gray_right_arrow2" path="E:\Patient\app\src\main\res\drawable-hdpi\gray_right_arrow2.png" qualifiers="hdpi-v4" type="drawable"/><file name="gray_right_arrow2_down" path="E:\Patient\app\src\main\res\drawable-hdpi\gray_right_arrow2_down.png" qualifiers="hdpi-v4" type="drawable"/><file name="gray_right_arrow2_up" path="E:\Patient\app\src\main\res\drawable-hdpi\gray_right_arrow2_up.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_go_to_today" path="E:\Patient\app\src\main\res\drawable-hdpi\ic_action_go_to_today.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_time" path="E:\Patient\app\src\main\res\drawable-hdpi\ic_action_time.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_drawer" path="E:\Patient\app\src\main\res\drawable-hdpi\ic_drawer.png" qualifiers="hdpi-v4" type="drawable"/><file name="list_selector" path="E:\Patient\app\src\main\res\drawable-hdpi\list_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="list_selector_selected" path="E:\Patient\app\src\main\res\drawable-hdpi\list_selector_selected.xml" qualifiers="hdpi-v4" type="drawable"/><file name="user" path="E:\Patient\app\src\main\res\drawable-hdpi\user.png" qualifiers="hdpi-v4" type="drawable"/><file name="drawer_shadow" path="E:\Patient\app\src\main\res\drawable-mdpi\drawer_shadow.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_drawer" path="E:\Patient\app\src\main\res\drawable-mdpi\ic_drawer.png" qualifiers="mdpi-v4" type="drawable"/><file name="drawer_shadow" path="E:\Patient\app\src\main\res\drawable-xhdpi\drawer_shadow.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_drawer" path="E:\Patient\app\src\main\res\drawable-xhdpi\ic_drawer.png" qualifiers="xhdpi-v4" type="drawable"/><file name="activity_camera" path="E:\Patient\app\src\main\res\layout\activity_camera.xml" qualifiers="" type="layout"/><file name="activity_family_edit" path="E:\Patient\app\src\main\res\layout\activity_family_edit.xml" qualifiers="" type="layout"/><file name="activity_main" path="E:\Patient\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_measurement" path="E:\Patient\app\src\main\res\layout\activity_measurement.xml" qualifiers="" type="layout"/><file name="activity_measurement_edit" path="E:\Patient\app\src\main\res\layout\activity_measurement_edit.xml" qualifiers="" type="layout"/><file name="activity_measurement_edit_numpick" path="E:\Patient\app\src\main\res\layout\activity_measurement_edit_numpick.xml" qualifiers="" type="layout"/><file name="activity_measurement_plot" path="E:\Patient\app\src\main\res\layout\activity_measurement_plot.xml" qualifiers="" type="layout"/><file name="activity_temperature" path="E:\Patient\app\src\main\res\layout\activity_temperature.xml" qualifiers="" type="layout"/><file name="drawer_list_item" path="E:\Patient\app\src\main\res\layout\drawer_list_item.xml" qualifiers="" type="layout"/><file name="measurement_row" path="E:\Patient\app\src\main\res\layout\measurement_row.xml" qualifiers="" type="layout"/><file name="patient_row" path="E:\Patient\app\src\main\res\layout\patient_row.xml" qualifiers="" type="layout"/><file name="swipe_measurement_row" path="E:\Patient\app\src\main\res\layout\swipe_measurement_row.xml" qualifiers="" type="layout"/><file name="undobar" path="E:\Patient\app\src\main\res\layout\undobar.xml" qualifiers="" type="layout"/><file name="camera" path="E:\Patient\app\src\main\res\menu\camera.xml" qualifiers="" type="menu"/><file name="family_edit" path="E:\Patient\app\src\main\res\menu\family_edit.xml" qualifiers="" type="menu"/><file name="main" path="E:\Patient\app\src\main\res\menu\main.xml" qualifiers="" type="menu"/><file name="measurement" path="E:\Patient\app\src\main\res\menu\measurement.xml" qualifiers="" type="menu"/><file name="measurement_edit" path="E:\Patient\app\src\main\res\menu\measurement_edit.xml" qualifiers="" type="menu"/><file name="measurement_plot" path="E:\Patient\app\src\main\res\menu\measurement_plot.xml" qualifiers="" type="menu"/><file name="measurement_rowselection" path="E:\Patient\app\src\main\res\menu\measurement_rowselection.xml" qualifiers="" type="menu"/><file name="patient_rowselection" path="E:\Patient\app\src\main\res\menu\patient_rowselection.xml" qualifiers="" type="menu"/><file name="temperature" path="E:\Patient\app\src\main\res\menu\temperature.xml" qualifiers="" type="menu"/><file path="E:\Patient\app\src\main\res\values\colors.xml" qualifiers=""><color name="blueback">#99FFFF</color><color name="dkgreen">#006600</color><color name="black">#000000</color><color name="modified">#16dbce</color><color name="blue">#0066cc</color><color name="orange">#ff5500</color><color name="gold">#e6b121</color><color name="date_color">#999999</color><color name="cachecolor">#8ad0e8</color><color name="transparent">#00000000</color><color name="gray">#999999</color><color name="article_title">#3399FF</color><color name="white">#ffffff</color><color name="articlecolor">#3399FF</color></file><file path="E:\Patient\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="pie_segment_label_font_size">10dp</dimen><dimen name="activity_vertical_margin">4dp</dimen><dimen name="domain_label_font_size">13dp</dimen><dimen name="range_label_font_size">13dp</dimen><dimen name="activity_horizontal_margin">4dp</dimen><dimen name="title_font_size">20dp</dimen><dimen name="legend_text_font_size">20dp</dimen><dimen name="range_tick_label_font_size">15dp</dimen><dimen name="domain_tick_label_font_size">15dp</dimen></file><file path="E:\Patient\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_not_available">Sorry, there\'s no web browser available</string><string name="family_edit_caption">Введите ФИО пользователя</string><string-array name="period_array">
+        <item>1 неделя</item>
+        <item>2 недели</item>
+        <item>3 недели</item>
+        <item>1 месяц</item>
+        <item>2 месяца</item>
+        <item>3 месяца</item>
+        <item>6 месяцев</item>
+        <item>12 месяцев</item>
+    </string-array><string name="m_alert">Внимание!</string><string name="m_measurement">Укажите значения измерения:</string><string name="action_add_measure">Добавить давление</string><string name="title_activity_measurement_plot">График измерений</string><string name="title_activity_family_edit">Семья</string><string name="lbl_name2">Отчество</string><string name="male">мужской</string><string name="action_OK">Сохранить</string><string name="measurement_day_caption">Дата измерения</string><string name="action_measurement">Давление</string><string name="lbl_pulse">пульс</string><string name="lbl_diastolic">диастолическое</string><string name="lbl_name">Имя</string><string name="change_birth_day">Изменить</string><string name="action_edit_patient">Изменить</string><string name="action_temperature">Температура</string><string name="action_add_temperature">Добавить температуру</string><string name="lbl_plot_diastolic">Диаст.</string><string name="action_add_patient">Добавить пациента</string><string name="action_delete">Удалить</string><string name="lbl_domain">Даты</string><string name="title_activity_measurement_edit">Давление</string><string name="drawer_close">Close navigation drawer</string><string name="lbl_plot_systolic">Сист.</string><string name="action_Cancel">Отменить</string><string name="title_activity_temperature">Температура</string><string name="birth_day_caption">Дата рождения</string><string name="error_field_required">Это поле обязательное</string><string name="m_years">лет</string><string name="action_websearch">Web search</string><string name="title_activity_measurement">Давление</string><string name="deleted">Удалено</string><string name="drawer_open">Open navigation drawer</string><string name="patient_list">Список пациентов</string><string name="hello_world">Hello world!</string><string name="female">женский</string><string name="measurements">"измерений: "</string><string name="m_need_user">Необходимо завести хотя бы одного пользователя!</string><string name="action_settings">Настройки</string><string name="app_name">Patient</string><string name="gender_caption">Пол</string><string name="action_draw_plot">График</string><string name="m_wrong_birthdate">Дата рождения должна быть раньше текущей</string><string name="lbl_heart_rate">ЧСС</string><string name="action_download">Загрузка программы</string><string name="title_activity_camera">CameraActivity</string><string name="undo">ОТМЕНИТЬ</string><string name="selected">Выбрано</string><string name="m_error">Ошибка</string><string name="m_cntr">Записей: %d</string><string name="lbl_range">Значения</string><string name="lbl_systolic">систолическое</string><string name="lbl_surname">Фамилия</string></file><file path="E:\Patient\app\src\main\res\values\styles.xml" qualifiers=""><style name="MyListButtonAction">
+	       <item name="android:layout_margin">5dp</item>
+	         <item name="android:layout_width">80dp</item>
+	       <item name="android:layout_height">30dp</item>
+	 
+	   </style><style name="AppTheme" parent="AppBaseTheme">
+        
+    </style><style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style><style name="MyListBackContent">
+	       <item name="android:layout_width">fill_parent</item>
+	       <item name="android:layout_height">fill_parent</item>
+	       <item name="android:background">@drawable/background_back</item>
+	       <item name="android:gravity">right</item>
+	   </style><style name="MyListTitle">
+	       <item name="android:paddingBottom">8dp</item>
+	       <item name="android:textSize">17sp</item>
+	       <item name="android:textStyle">bold</item>
+	       <item name="android:maxLines">2</item>
+	       <item name="android:ellipsize">end</item>
+	   </style><style name="MyListImage">
+	       <item name="android:layout_width">64dp</item>
+	       <item name="android:layout_height">64dp</item>
+	       <item name="android:scaleGravity">fill</item>
+	       <item name="android:layout_marginRight">8dp</item>
+	   </style><style name="MyListFrontContent">
+	       <item name="android:layout_width">fill_parent</item>
+	       <item name="android:layout_height">fill_parent</item>
+	       <item name="android:background">@drawable/background_front</item>
+	       <item name="android:padding">8dp</item>
+	   </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        
+
+        
+    </style></file><file path="E:\Patient\app\src\main\res\values\swipelistview__attrs.xml" qualifiers=""><declare-styleable name="SwipeListView">
+        <attr format="boolean" name="swipeOpenOnLongPress"/>
+        <attr format="integer" name="swipeAnimationTime"/>
+        <attr format="dimension" name="swipeOffsetLeft"/>
+        <attr format="dimension" name="swipeOffsetRight"/>
+        <attr format="boolean" name="swipeCloseAllItemsWhenMoveList"/>
+        <attr format="reference" name="swipeFrontView"/>
+        <attr format="reference" name="swipeBackView"/>
+        <attr format="enum" name="swipeMode">
+            <enum name="none" value="0"/>
+            <enum name="both" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="left" value="3"/>
+        </attr>
+        <attr format="enum" name="swipeActionLeft">
+            <enum name="reveal" value="0"/>
+            <enum name="dismiss" value="1"/>
+            <enum name="choice" value="2"/>
+        </attr>
+        <attr format="enum" name="swipeActionRight">
+            <enum name="reveal" value="0"/>
+            <enum name="dismiss" value="1"/>
+            <enum name="choice" value="2"/>
+        </attr>
+        <attr format="reference" name="swipeDrawableChecked"/>
+        <attr format="reference" name="swipeDrawableUnchecked"/>
+    </declare-styleable></file><file path="E:\Patient\app\src\main\res\values-sw720dp-land\dimens.xml" qualifiers="sw720dp-land-v13"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="E:\Patient\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        
+    </style></file><file path="E:\Patient\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        
+    </style></file><file name="line_point_formatter_3" path="E:\Patient\app\src\main\res\xml\line_point_formatter_3.xml" qualifiers="" type="xml"/><file name="line_point_formatter_dias_norm" path="E:\Patient\app\src\main\res\xml\line_point_formatter_dias_norm.xml" qualifiers="" type="xml"/><file name="line_point_formatter_sys_norm" path="E:\Patient\app\src\main\res\xml\line_point_formatter_sys_norm.xml" qualifiers="" type="xml"/><file name="line_point_formatter_with_plf1" path="E:\Patient\app\src\main\res\xml\line_point_formatter_with_plf1.xml" qualifiers="" type="xml"/><file name="line_point_formatter_with_plf2" path="E:\Patient\app\src\main\res\xml\line_point_formatter_with_plf2.xml" qualifiers="" type="xml"/><file name="ic_launcher1" path="E:\Patient\app\src\main\res\mipmap-hdpi\ic_launcher1.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher1" path="E:\Patient\app\src\main\res\mipmap-xxxhdpi\ic_launcher1.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher1" path="E:\Patient\app\src\main\res\mipmap-mdpi\ic_launcher1.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher1" path="E:\Patient\app\src\main\res\mipmap-xxhdpi\ic_launcher1.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher1" path="E:\Patient\app\src\main\res\mipmap-xhdpi\ic_launcher1.png" qualifiers="xhdpi-v4" type="mipmap"/></source><source path="E:\Patient\app\build\generated\res\rs\debug"/><source path="E:\Patient\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="E:\Patient\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SwipeListView"><attr format="boolean" name="swipeOpenOnLongPress"/><attr format="integer" name="swipeAnimationTime"/><attr format="dimension" name="swipeOffsetLeft"/><attr format="dimension" name="swipeOffsetRight"/><attr format="boolean" name="swipeCloseAllItemsWhenMoveList"/><attr format="reference" name="swipeFrontView"/><attr format="reference" name="swipeBackView"/><attr format="enum" name="swipeMode">
+            <enum name="none" value="0"/>
+            <enum name="both" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="left" value="3"/>
+        </attr><attr format="enum" name="swipeActionLeft">
+            <enum name="reveal" value="0"/>
+            <enum name="dismiss" value="1"/>
+            <enum name="choice" value="2"/>
+        </attr><attr format="enum" name="swipeActionRight">
+            <enum name="reveal" value="0"/>
+            <enum name="dismiss" value="1"/>
+            <enum name="choice" value="2"/>
+        </attr><attr format="reference" name="swipeDrawableChecked"/><attr format="reference" name="swipeDrawableUnchecked"/></declare-styleable></configuration></mergedItems></merger>

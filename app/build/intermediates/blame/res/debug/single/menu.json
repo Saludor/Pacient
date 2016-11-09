@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\menu\\measurement_plot.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\menu\\measurement_plot.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\menu\\measurement.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\menu\\measurement.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\menu\\measurement_edit.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\menu\\measurement_edit.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\menu\\patient_rowselection.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\menu\\patient_rowselection.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\menu\\camera.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\menu\\camera.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\menu\\family_edit.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\menu\\family_edit.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\menu\\measurement_rowselection.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\menu\\measurement_rowselection.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\menu\\temperature.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\menu\\temperature.xml"
+    }
+]

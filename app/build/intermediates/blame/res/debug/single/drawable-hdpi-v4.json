@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\gradient_bg.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-hdpi\\gradient_bg.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edit_bg.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-hdpi\\edit_bg.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\choice_selected.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-hdpi\\choice_selected.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\choice_unselected.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-hdpi\\choice_unselected.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\gradient_bg_selected.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-hdpi\\gradient_bg_selected.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\gradient_bg_hover.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-hdpi\\gradient_bg_hover.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_selector_selected.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-hdpi\\list_selector_selected.xml"
+    },
+    {
+        "merged": "E:\\Patient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_selector.xml",
+        "source": "E:\\Patient\\app\\src\\main\\res\\drawable-hdpi\\list_selector.xml"
+    }
+]

@@ -1,0 +1,227 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+     
+    <RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin"
+	    tools:context=".FamilyEditActivity" >
+	
+	    <TextView
+	        android:id="@+id/textViewCaption"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/family_edit_caption"
+	        android:textColor="@color/blue"
+	        android:textSize="20sp" />
+	
+	    <EditText
+	        android:id="@+id/editTextSurname"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/textViewCaption"
+	        android:layout_below="@+id/textViewCaption"
+	        android:layout_marginTop="2dp"
+	        android:hint="@string/lbl_surname"
+	        android:ems="10"
+	        android:inputType="textPersonName" >
+	
+	        <requestFocus />
+	    </EditText>
+	
+        <EditText
+            android:id="@+id/editTextName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextName1"
+            android:layout_below="@+id/editTextName1"
+            android:layout_marginTop="16dp"
+            android:hint="@string/lbl_name2"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextSurname"
+            android:layout_below="@+id/editTextSurname"
+            android:layout_marginTop="14dp"
+            android:hint="@string/lbl_name"
+            android:ems="10"
+            android:inputType="textPersonName" />
+			
+	<!--  		<CheckBox
+			    android:id="@+id/checkBox1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignLeft="@+id/editTextName2"
+			    android:layout_centerVertical="true"
+			    android:text="@string/gender_caption" />
+	-->    
+			
+	    <TextView
+	        android:id="@+id/textViewBirthDate"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/radio_gender"
+	        android:layout_below="@+id/radio_gender"
+	        android:paddingTop="4dp"
+	        android:text="@string/birth_day_caption"
+	        android:textColor="@color/blue"
+	        android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textViewBirthDate"
+            android:layout_alignRight="@+id/textViewBirthDate"
+            android:layout_below="@+id/textViewBirthDate"
+            android:layout_marginTop="0dp"
+            android:background="@android:color/transparent"
+            android:cursorVisible="false"
+            android:editable="false"
+            android:ems="10"
+            android:hint="@string/birth_day_caption"
+            android:inputType="date" >
+
+        </EditText>
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editTextDate"
+            android:layout_toRightOf="@+id/editTextDate"
+            android:contentDescription="@string/birth_day_caption"
+            android:cropToPadding="true"
+            android:onClick="selectDate"
+            android:src="@android:drawable/ic_menu_my_calendar" />
+
+        <ImageView
+            android:id="@+id/imageViewPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextDate"
+            android:layout_alignLeft="@+id/editTextDate"
+            android:contentDescription="@string/birth_day_caption"
+            android:cropToPadding="true"
+            android:layout_marginTop="20dp"
+            android:src="@android:drawable/ic_menu_my_calendar" />
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageViewPhoto"
+            android:layout_toRightOf="@+id/imageViewPhoto"
+            android:contentDescription="@string/birth_day_caption"
+            android:cropToPadding="true"
+            android:onClick="selectPhoto"
+            android:src="@android:drawable/ic_menu_camera" />
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageViewPhoto"
+            android:layout_toRightOf="@+id/imageButton2"
+            android:contentDescription="@string/birth_day_caption"
+            android:cropToPadding="true"
+            android:onClick="savePhoto"
+            android:src="@android:drawable/ic_menu_save" />
+								    
+	<!--      <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/checkBox1"
+	        android:layout_below="@+id/checkBox1"
+	        android:layout_marginTop="18dp"
+	        android:text="@string/birth_day_caption" />
+	
+	    <Button
+	        android:id="@+id/buttonChangeDate"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/textView1"
+	        android:layout_alignBottom="@+id/textView1"
+	        android:layout_alignRight="@+id/editTextName2"
+	        android:text="@string/change_birth_day" />
+	-->
+	
+        <LinearLayout
+	        android:id="@+id/button_Container"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/imageViewPhoto"
+	        android:paddingTop="6dp"        
+	      	android:orientation="horizontal" >
+	      
+	        <Button
+	            android:id="@+id/action_OK"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="16dp"
+	            android:paddingLeft="12dp"
+	            android:paddingRight="12dp"
+	            android:text="@string/action_OK" />
+	    	  <Button
+	            android:id="@+id/action_Cancel"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="16dp"
+	            android:paddingLeft="12dp"
+	            android:paddingRight="12dp"
+	            android:text="@string/action_Cancel" />
+	    </LinearLayout>
+	    
+	    <TextView
+	        android:id="@+id/textViewGender"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/editTextName2"
+	        android:layout_below="@+id/editTextName2"
+	        android:paddingTop="4dp"
+	        android:text="@string/gender_caption"
+	        android:textColor="@color/blue"
+	        android:textSize="20sp" />
+			
+			<RadioGroup
+			    android:id="@+id/radio_gender"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_alignLeft="@+id/textViewGender"
+			    android:layout_below="@+id/textViewGender"
+			    android:paddingTop="0dp"
+			    android:orientation="horizontal" >
+	
+			    <RadioButton
+			        android:id="@+id/radio_male"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:checked="true"
+			        android:text="@string/male" />
+	
+			    <RadioButton
+			        android:id="@+id/radio_female"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/female" />
+			</RadioGroup>
+
+			<TextView
+			    android:id="@+id/textViewAge"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignBottom="@+id/imageButton1"
+			    android:layout_marginLeft="18dp"
+			    android:layout_toRightOf="@+id/imageButton1"
+			    android:text="Age" />
+	
+	</RelativeLayout>
+</ScrollView>	

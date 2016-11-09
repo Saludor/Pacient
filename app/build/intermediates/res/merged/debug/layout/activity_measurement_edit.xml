@@ -1,0 +1,183 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+     
+	<RelativeLayout     
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MeasurementEditActivity" >
+
+    <TextView
+        android:id="@+id/textViewCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/m_measurement" />
+
+    <SeekBar
+        android:id="@+id/seekBarTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewCaption"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:max="300"
+        android:progress="120" />
+
+    <SeekBar
+        android:id="@+id/seekBarBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/seekBarTop"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:max="200"
+        android:progress="80" />
+
+    <SeekBar
+        android:id="@+id/seekBarHR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/seekBarBottom"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:max="250"
+        android:progress="60" />
+    
+    <TextView
+        android:id="@+id/textViewTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextTop"
+        android:layout_alignLeft="@+id/seekBarTop"
+        android:text="@string/lbl_systolic" />
+
+    <TextView
+        android:id="@+id/textViewBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextBottom"
+        android:layout_alignLeft="@+id/seekBarTop"
+        android:text="@string/lbl_diastolic" />
+    
+    <TextView
+        android:id="@+id/textViewHR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextHR"
+        android:layout_alignLeft="@+id/seekBarTop"
+        android:text="@string/lbl_pulse" />    
+
+    <EditText
+        android:id="@+id/editTextTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="4dp"
+        android:textSize="20sp"
+        android:layout_alignTop="@+id/seekBarTop"
+        android:ems="3"
+        android:max="300"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="4dp"
+        android:textSize="20sp"
+        android:layout_alignTop="@+id/seekBarBottom"
+        android:ems="3"
+        android:max="200"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextHR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="4dp"
+        android:textSize="20sp"
+        android:layout_alignTop="@+id/seekBarHR"
+        android:ems="3"
+        android:max="250"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/seekBarHR"
+        android:layout_below="@+id/seekBarHR"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="36dp"
+        android:background="@android:color/transparent"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:textSize="20sp"
+        android:ems="7"
+        android:hint="@string/measurement_day_caption"
+        android:inputType="datetime" />
+
+    <LinearLayout
+        android:id="@+id/button_Container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextDate"
+        android:orientation="horizontal"
+        android:paddingTop="26dp" >
+
+        <Button
+            android:id="@+id/action_OK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="@string/action_OK" />
+
+        <Button
+            android:id="@+id/action_Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="@string/action_Cancel" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButtonTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_Container"
+        android:layout_toRightOf="@+id/imageButtonDate"
+        android:contentDescription="@string/measurement_day_caption"
+        android:cropToPadding="true"
+        android:onClick="selectTime"
+        android:src="@drawable/ic_action_go_to_today" />
+
+    <ImageButton
+        android:id="@+id/imageButtonDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_Container"
+        android:layout_toRightOf="@+id/editTextDate"
+        android:contentDescription="@string/measurement_day_caption"
+        android:cropToPadding="true"
+        android:onClick="selectDate"
+        android:src="@drawable/ic_action_time" />
+
+    
+	</RelativeLayout>
+</ScrollView>
